@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rimas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body{
+        
+        background-image: url(images/white.jpg);
+         background-size:  cover;
+         background-position: center;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         width: 100%;
+         height: 100vh;
+     }
+
+     html{
+       scroll-behavior: smooth;
+     }
+
+     /* #about{
+       margin-top: 12.9%;
+       margin-bottom: 40%;
+       margin-left: 10%;
+     } */
+
+     .footer {
+       
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right,white,grey);
+  color: white;
+  text-align: center;
+}
+
+.footer ul{
+  list-style-type: none;
+  display: flex;
+}
+.footer ul li {
+  text-decoration: none;
+  color: white;
+}
+
+
+     
+        </style>
+        <script>
+          // <cursor function>
+          function firstimg()
+          {
+            document.getElementById("logo").src="images/im5.jpg";
+          }
+          function secondimg()
+          {
+            document.getElementById("logo").src="images/Spycr.png";
+          }
+          function thirdimg()
+          {
+            document.getElementById("about1").src="images/im9.png";
+          }
+          function fourthimg()
+          {
+            document.getElementById("about1").src="images/im3.png";
+          }
+
+
+          function third3img()
+       {
+         document.getElementById("logoinner").src="images/im5.jpg";
+       }
+       
+       function fourth3img()
+       {
+         document.getElementById("logoinner").src="images/spycr.png"
+       }
+         
+
+
+           
+
+          </script>
+           <!-- // <cursor function over> -->
+
+
+            <!-- web images random area -->
+            
+
+             <!-- web images random area -->
+</head>
+<body>
+
+  
+  
+    <nav class="navbar navbar-default" style="border-style: none ;background: transparent ;font-family: cursive;">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" style="color:white">
+                <!-- <li><a href="https://www.facebook.com/cader.rimas.5"><img src="im5.png" width="25px"></a></li> -->
+                <li ><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="firstimg()" onmouseout="secondimg()" id="logo" style="border-radius: 50px;"></a></li>
+                <li ><a href="/">Home</a></li>
+                <li ><a href="#about">About </a></li>
+              
+              <li class="dropdown" style="background: linear-gradient(to right, white,grey);">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Design Details <span class="caret"></span></a>
+                <ul class="dropdown-menu" style="border-style: none;background: linear-gradient(to right, white,grey);">
+                  <li><a href="#web">Web Applications</a></li>
+                  <li ><a href="#mobile">Mobile Applications</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" style="border-radius: 25px;">
+              </div>
+              <button type="submit" class="btn btn-default" style="border: none;border-radius: 25px ;background-color: orange;">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.gmail.com">cader.rimas444@gmail.com</a></li>
+             
+              <li class="dropdown" style="background: linear-gradient(to right, white,grey);">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                <ul class="dropdown-menu" style="border-style: none;background: linear-gradient(to right, white,grey);">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#web">Design Details</a></li>
+                
+                 
+                </ul>
+              </li>
+              <li><a href="https://www.facebook.com/cader.rimas.5"><img src="images/fd.png" width="23px"></a></li>
+              <li><a href="https://www.instagram.com/cader_rimas/"><img src="images/id.png" width="23px"></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+        
+      <!-- details start -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="background: linear-gradient(to right, white,grey);border-radius: 25px;border: none;font-family: cursive">
+        Buy Webites & Apps
+       </button>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+             </div>
+             <div class="modal-body" style="padding:2%">
+               <form method="POST" action="/detailshere" id="form">
+                 <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                 <div class="form-group" style="font-family: cursive;">
+                   <label for="exampleInputEmail1">Email address :</label>
+                   <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                 </div>
+                 <div class="form-group" style="font-family: cursive;">
+                   <label for="exampleInputPassword1">Name :</label>
+                   <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                 </div>
+       
+                 <div class="form-group" style="font-family: cursive;">
+                   <label for="exampleInputPassword1">What's App Number :</label>
+                   <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                 </div>
+       
+                 <div class="form-group" style="font-family: cursive;">
+                   <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                   <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                 </div>
+       
+       
+                
+                 <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+               </form>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+              
+             </div>
+           </div>
+         </div>
+       </div>
+       <br>
+       <br>
+
+
+       <!-- details over -->
+         
+       
+       
+       <!--Carousel start-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                 
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  
+                  <div class="item active">
+                    <img src="images/banner1.jpg" alt="..." width="100%" height="50%">
+                    
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/banner2.png" alt="..." width="100%" height="50%">
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="images/banner3.jpg" alt="..." width="100%" height="50%">
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="images/banner4.jpg" alt="..." width="100%" height="50%">
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="images/banner5.jpg"alt="..." width="100%" height="50%">
+                    <div class="carousel-caption">
+                     
+                      ...
+                    </div>
+                  </div>
+                  
+                  ...
+                </div>
+              
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+               <!--Carousel end-->
+
+
+
+
+
+             
+
+
+
+               <br>
+               <br>
+
+           <!-- <web area> -->
+             <div id="web">
+              <p style="font-family: cursive;"><a class="btn btn-primary btn-lg" href="#" role="button" style="border-style: none;background: linear-gradient(to right, white,grey);border-radius: 25px;color: white;font-style: italic;">Website Designs</a></p>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  
+                  <img src="images/web1.jpg" alt="..."> 
+                  <div class="caption">
+                    <h3>Design 1</h3>
+                    
+                    <button type ="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary" role="button" style="border: none;border-radius: 25px;background: orange;">Buy Now</button>  
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                          </div>
+                          <div class="modal-body" style="padding:2%">
+                            <form method="POST" action="/detailshere" id="form">
+                              <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputEmail1">Email address :</label>
+                                <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                              </div>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Name :</label>
+                                <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">What's App Number :</label>
+                                <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                              </div>
+                    
+                    
+                             
+                              <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/web2.jpg" alt="...">
+                  <div class="caption">
+                    <h3>Design 2</h3>
+                    
+                    <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-success" role="button" style="border: none;border-radius: 25px;background: orange;">Buy Now</button> 
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                          </div>
+                          <div class="modal-body" style="padding:2%">
+                            <form method="POST" action="/detailshere" id="form">
+                              <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputEmail1">Email address :</label>
+                                <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                              </div>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Name :</label>
+                                <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">What's App Number :</label>
+                                <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                              </div>
+                    
+                    
+                             
+                              <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="images/web3.jpg" alt="...">
+                  <div class="caption">
+                    <h3>Design 3</h3>
+                   
+                    <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary" role="button" style="border: none;border-radius: 25px;background: orange;"> Buy Now</button>  
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                          </div>
+                          <div class="modal-body" style="padding:2%">
+                            <form method="POST" action="/detailshere" id="form">
+                              <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputEmail1">Email address :</label>
+                                <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                              </div>
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Name :</label>
+                                <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">What's App Number :</label>
+                                <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                              </div>
+                    
+                              <div class="form-group" style="font-family: cursive;">
+                                <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                              </div>
+                    
+                    
+                             
+                              <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+             <!-- <web area over> -->
+
+            <!-- <mobile area> -->
+             <div id="mobile">
+              <p style="font-family: cursive;"><a class="btn btn-primary btn-lg" href="#" role="button" style="border-style: none;background: linear-gradient(to right, white,grey);border-radius: 25px;color: white;font-style: italic;">Mobile App Designs</a></p>
+              <br>
+              <div class="row">
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/mo1.jpg" alt="...">
+                    <div class="caption">
+                      <h3>Design 1</h3>
+                      
+                      <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary" role="button" style="border: none;border-radius: 25px;background: orange;">Buy Now </button>
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                            </div>
+                            <div class="modal-body" style="padding:2%">
+                              <form method="POST" action="/detailshere" id="form">
+                                <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputEmail1">Email address :</label>
+                                  <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                                </div>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Name :</label>
+                                  <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">What's App Number :</label>
+                                  <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                  <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                                </div>
+                      
+                      
+                               
+                                <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/mo2.jpg" alt="...">
+                    <div class="caption">
+                      <h3>Design 2</h3>
+                      
+                      <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary" role="button"style="border: none;border-radius: 25px;background: orange;">Buy Now</button> 
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                            </div>
+                            <div class="modal-body" style="padding:2%">
+                              <form method="POST" action="/detailshere" id="form">
+                                <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputEmail1">Email address :</label>
+                                  <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                                </div>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Name :</label>
+                                  <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">What's App Number :</label>
+                                  <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                  <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                                </div>
+                      
+                      
+                               
+                                <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+  
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/mo3.jpg" alt="...">
+                    <div class="caption">
+                      <h3>Design 3</h3>
+                     
+                      <button type="button" data-toggle="modal" data-target="#myModal"class="btn btn-primary" role="button" style="border: none;border-radius: 25px;background: orange;">Buy Now</button> 
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel" style="font-family: cursive;color:linear-gradient(to right, white,grey) ;">Enter Your details</h4>
+                            </div>
+                            <div class="modal-body" style="padding:2%">
+                              <form method="POST" action="/detailshere" id="form">
+                                <center><a href="/"><img src="images/Spycr.png" width="75px" height="65px" onmouseover="third3img()" onmouseout="fourth3img()" style="border-radius: 50px;cursor: pointer;" id="logoinner"></a></center>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputEmail1">Email address :</label>
+                                  <input type="email" class="form-control" id="email" placeholder="email" style="border: none;border-bottom: black;" name="email">
+                                </div>
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Name :</label>
+                                  <input type="text" class="form-control" id="name" placeholder="name" style="border: none;border-bottom: black" name="name">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">What's App Number :</label>
+                                  <input type="phone" class="form-control" id="number" placeholder="number" style="border: none;border-bottom: black;" name="number">
+                                </div>
+                      
+                                <div class="form-group" style="font-family: cursive;">
+                                  <label for="exampleInputPassword1">Do You Need App or Website : </label>
+                                  <input type="text" class="form-control" id="need" placeholder="do you need app or website" style="border: none;border-bottom: black;" name="need">
+                                </div>
+                      
+                      
+                               
+                                <button type="submit"  class="btn btn-default" style="border-style: none;background: linear-gradient(to right, white,orange); border-radius: 25px;">Submit</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: cursive;border: none;border-radius: 25px;background: linear-gradient(to right, white,orange)">Close</button>
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+  
+
+              <!-- <mobile area over> -->
+          
+
+
+                  <!-- about section start -->
+           
+              <div id="about">
+                <div class="container">
+                  <div class="jumbotron" style="background: transparent;">
+                    <p style="font-family: cursive;color: black;"><a class="btn btn-primary btn-lg" href="#" role="button" style="border-style: none;background: linear-gradient(to right, white,grey);border-radius: 25px;color: white;font-style: italic;">About Me</a></p>
+                    <!-- <h2 style="font-family: sans-serif;font-style: italic;color: grey;">About Me</h2> -->
+                    <br>
+                    <p style="font-style: italic;font-family: cursive;font-size: 20px;">This is the official website of Cader sahib Rimas.
+                      In this website you can get your dream <b style="color:red">Mobile Apps</b>
+                      and as well as <b style="color: red;">Web Applications </b> 
+                      for low price
+                      <button class="btn-primary" style="border: none; border-radius: 25px; background: linear-gradient(to right,white,orange);"> </button>
+                    </p>
+                        <br>
+                        <br>
+                        <div class="media">
+                         <div class="media-left">
+                           <img src="images/im3.png" class="media-object" onmouseover="thirdimg()" onmouseout="fourthimg()" id="about1" style="width: 100px; border: none; border-radius: 25px; -webkit-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+                           -moz-box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);
+                           box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.75);cursor: pointer;">
+                         </div>
+                         
+                           <div class="media-body">
+                               <h3 class="media-heading" style="font-family: Arial, Helvetica, sans-serif;font-size: 22px;font-style: italic;color: grey;">Cader Sahib Rimas M.Z</h3>
+                               <br>
+                               <p style="font-family: cursive;font-style: italic;font-size: 18px;">Myself Cader Sahib Rimas M.Z and
+                                  I'm a <b style="color:blue">Flutter Developer </b>and as well as
+                                   <b style="color: blue;">Web Application Developer</b> (Front End & Back End).
+                               </p>
+             
+                           </div>
+                        </div>
+                        
+                           <!--Try out here-->
+                              <div></div>
+                        </div>
+                 
+                 
+                 <!-- about section ends  -->
+
+
+               
+                   <!-- footer area -->
+                    <center> <p style="color:white;padding-top: 1rem;">@copyright2021-spycr</p></center>
+                   <!-- footer area over   -->
+                           
+
+
+    
+
+            
+</body>
+</html>
